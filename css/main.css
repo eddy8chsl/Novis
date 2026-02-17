@@ -1,0 +1,17 @@
+@import url("components/section.css");
+@import url("layout/header.css");
+@import url("layout/table.css");
+@import url("layout/footer.css");
+
+body {
+  background-color: var(--bg-main-color);
+  color: var(--text-main-color);
+}
+
+:root {
+    --bg-main-color: #000000;
+    --text-important-color: #fca311;
+    --text-main-color: #ffffff;
+    --bg-block: #14213d;
+    --border-radius: 8px;
+}

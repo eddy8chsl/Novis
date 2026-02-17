@@ -1,0 +1,90 @@
+
+/* Colonne droite */
+.dashboard-preview {
+    flex: 1;
+    background: var(--bg-block);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.balance-card { 
+    grid-area: balance-card; 
+} 
+
+.allocation-card { 
+    grid-area: allocation-card; 
+} 
+
+.transactions-card { 
+    grid-area: transactions-card; 
+}
+
+aside.dashboard-preview {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "balance-card allocation-card" 
+        "transactions-card allocation-card"
+        ". allocation-card";
+    display: grid;
+}
+
+
+/* Tableau */
+.dashboard-preview table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.dashboard-preview th,
+.dashboard-preview td {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.dashboard-preview thead {
+    background: #536788;
+}
+
+.dashboard-preview tfoot {
+    background: #1462e0;
+}
+
+.dashboard-preview tbody tr:nth-child(even) {
+    background: #080d18;
+}
+
+.up {
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.down {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+
+.bar {
+    height: 15px;
+    border-radius: 6px;
+}
+
+.bar-stock { background: #38bdf8; width: 45%; }
+.bar-crypto { background: #a855f7; width: 30%; }
+.bar-etf { background: #22c55e; width: 25%; }
+.bar-cash { background: #facc15; width: 10%; }
+
+
+
+/* Responsive */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dashboard-preview {
+        width: 100%;
+    }
+}

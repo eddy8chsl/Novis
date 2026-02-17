@@ -1,0 +1,21 @@
+.hero {
+  padding: 6rem 3rem;
+  color: #ffffff;
+  text-align: left;
+  display : flex;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+    flex: 1;
+}
