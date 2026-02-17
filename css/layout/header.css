@@ -23,17 +23,13 @@
 
 .nav-premier {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .nav-second {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 
-#securite {
-    font-size: medium;
-    text-align: left;
-}
 
 
