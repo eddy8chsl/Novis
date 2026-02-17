@@ -7,6 +7,10 @@
     border-radius: 10px;
 }
 
+.dashboard-preview h3 {
+    font-size: clamp(1rem, 2rem, 3rem);
+}
+
 .balance-card { 
     grid-area: balance-card; 
 } 

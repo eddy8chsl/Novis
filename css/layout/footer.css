@@ -1,8 +1,29 @@
 footer {
-    margin-top: 5rem;
+    background: var(--bg-block);
+    padding: 1.5rem 2rem;
+    margin-top: 3rem;
+    border-radius: 10px;
     display: flex;
-    border-color: white;
-    justify-content: center;
-    background-color: var(--bg-block);
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-main-color);
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: var(--text-main-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    opacity: 0.8;
 }

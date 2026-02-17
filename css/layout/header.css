@@ -9,6 +9,7 @@
     align-items: center;
     display: flex;
     margin-right: 2rem;
+    font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
 .nav-links {
@@ -28,6 +29,11 @@
 .nav-second {
     display: flex;
     gap: 1rem;
+}
+
+#securite {
+    font-size: medium;
+    text-align: left;
 }
 
 

@@ -8,6 +8,7 @@
 .hero h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 3vw, 3rem);
 }
 
 .hero p {
