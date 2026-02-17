@@ -1,0 +1,15 @@
+ button {
+    background: var(--bg-block);
+    border: 1px solid var(--text-important-color);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+a {
+    color: var(--text-important-color);
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: var(--bg-main-color);
+}

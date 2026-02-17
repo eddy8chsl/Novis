@@ -14,7 +14,7 @@
     </head>
     <body>
         <header class="nav">
-            <h1>Novis <a href="/" aria-label="Retour à l'accueil"><img src="/assets/img/logo.webp" style="height: 75px; width: 75px;"/></a></h1>
+            <h1>Novis <a href="/" aria-label="Retour à l'accueil"><img src="/assets/img/logo.webp" style="height: 75px; width: 75px;" /></a></h1>
             <nav class="nav-links">
                 <div class="nav-premier">
                     <button><a href="#Actions">Actions</a></button>
@@ -32,7 +32,13 @@
             <section class="hero"> 
                 <article class="hero-content"> 
                     <h2>Investir. Optimiser. Performer.</h2> 
-                    <p>Novis est une application de trading conçue pour vous aider à mieux gérer votre argent : investissez votre patrimoine, optimisez vos placements et faites croître votre rendement.</p> 
+                    <p>Novis est une application de trading conçue pour vous aider à mieux gérer votre argent : investissez votre patrimoine, optimisez vos placements et faites croître votre rendement.</p>
+
+                    <div class="block">
+                        <span><img src="/assets/img/user.webp" style="height: 25px; width: 25px;" />+ 25 000 Utilisateurs</span>
+                        <span><img src="/assets/img/argent.webp" style="height: 25px; width: 25px;" />1,2 Md d'actifs suivis</span>
+                        <span><img src="/assets/img/dispo.webp" style="height: 25px; width: 25px;" />99,999% disponibilité</span>
+                    </div>
                 </article> 
             
                 <aside class="dashboard-preview">
@@ -98,6 +104,7 @@
                             <tr>
                                 <th>Actif</th>
                                 <th>Quantité</th>
+                                <th>Type</th>
                                 <th>Prix actuel</th>
                                 <th>Variation</th>
                             </tr>
@@ -107,6 +114,7 @@
                             <tr>
                                 <td scope="row">Bitcoin (BTC)</td>
                                 <td>0.8</td>
+                                <td>Crypto</td>
                                 <td>42 500 €</td>
                                 <td class="up">+3.2%</td>
                             </tr>
@@ -114,6 +122,7 @@
                             <tr>
                                 <td scope="row">Apple (AAPL)</td>
                                 <td>12</td>
+                                <td>Action</td>
                                 <td>185.40 $</td>
                                 <td class="down">−0.8%</td>
                             </tr>
@@ -121,6 +130,7 @@
                             <tr>
                                 <td scope="row">Ethereum (ETH)</td>
                                 <td>0.3</td>
+                                <td>Crypto</td>
                                 <td>2 350 €</td>
                                 <td class="up">+1.7%</td>
                             </tr>
@@ -128,22 +138,25 @@
                             <tr>
                                 <td scope="row">Tesla (TSLA)</td>
                                 <td>5</td>
+                                <td>Action</td>
                                 <td>245.10 $</td>
                                 <td class="down">−1.4%</td>
                             </tr>
                         </tbody>
                         <tfoot>
                             <tr>
-                                <th scope="row" colspan="3">Moyenne de variation</th>
+                                <th scope="row" colspan="4">Moyenne de variation</th>
                                 <td class="up">+2.7</td>
                             </tr>
                         </tfoot>
                     </table>
             </section>
             <footer>
-                <div class="">
-                    <p>© Novis</p>
-                </div>
+                
+                    <div class="footer-center">
+                        <p>© Novis</p>
+                    </div>
+               
             </footer>
         </main>
     </body>

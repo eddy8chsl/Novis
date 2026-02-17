@@ -1,0 +1,15 @@
+.block span {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.4rem;
+    background-color: var(--bg-block);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    transition: transform .2s;
+}
+
+.block span:hover {
+    transform: translateY(-4px);
+}
+

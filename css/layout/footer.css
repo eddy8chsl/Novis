@@ -1,0 +1,8 @@
+footer {
+    margin-top: 5rem;
+    display: flex;
+    border-color: white;
+    justify-content: center;
+    background-color: var(--bg-block);
+    width: 100%;
+}
